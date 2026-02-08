@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "venom-stone",
+      "name": "Venom Stone"
+    }
+  ],
+  "drops": {
+    "bulbasaur": {
+      "normal": [],
+      "shiny": []
+    },
+    "venusaur": {
+      "normal": [
+        {
+          "itemId": "venom-stone",
+          "itemName": "Venom Stone",
+          "qty": "1",
+          "chance": "Very rare"
+        }
+      ],
+      "shiny": [
+        {
+          "itemId": "venom-stone",
+          "itemName": "Venom Stone",
+          "qty": "1",
+          "chance": "25"
+        }
+      ]
+    }
+  },
+  "site": {
+    "event": {
+      "tag": "Evento Ativo",
+      "title": "Carnaval Alliance 🎊",
+      "description": "A folia invadiu o PokeAlliance! Glitter, serpentina e bônus especiais estão ativos para todos os treinadores.",
+      "banner": "imgs/Evento/Banner.png"
+    },
+    "bonuses": [
+      {
+        "label": "Shiny Charm",
+        "value": "+20%"
+      },
+      {
+        "label": "Drop Rate",
+        "value": "+20%"
+      },
+      {
+        "label": "Experiência",
+        "value": "+20%"
+      },
+      {
+        "label": "Treino",
+        "value": "+20%"
+      }
+    ],
+    "highlight": {
+      "tag": "Novo Pokémon",
+      "title": "Leafeon & Shiny Leafeon",
+      "description": "A espera acabou! Leafeon e sua variante Shiny já estão disponíveis. Desafie a dungeon de acesso e conquiste o seu.",
+      "image": "imgs/Evento/chega da leafon e shiny leafon.png",
+      "meta": [
+        {
+          "icon": "shield-check",
+          "text": "Nível 150+"
+        },
+        {
+          "icon": "key",
+          "text": "2 Chaves/Dia"
+        }
+      ]
+    },
+    "changelog": {
+      "title": "Changelog",
+      "body": "Sem atualizaçõesAlterações Gerais\nAgora é possivel vender Smeargles comum no NPC pelo valor de $100.000.\nCorreções de Bug\nCorrigido um erro no qual o drop de Ice Stone da Shiny Glaceon estava em 5%, quando deveria ser 50%.\nCorrigido um erro no qual aparecia o icone de Wild mesmo em Pokémon que não eram afetados por força e Loot desses locais.\nCorrigido um erro no qual a mensagem ao mega evoluir estava incorreta.\nBalanceamento\nShiny Lapras\nAgora o Hail causa Stun instântaneo no PVE.\nShiny Walrein\nAgora o Hail causa Stun instântaneo no PVE.\nShiny Flygon e Flygon\nAgora ambas versões selvagens utilizam o Earthquake instantaneo ao invés de turnos.\nGlaceon\nAgora sua versão selvagem não utiliza mais o golpe Freeze Dry.\nShiny Toxicroak\nAgora o Poison Touch causa Stun instântaneo no PVE. no momento."
+    }
+  }
+}
